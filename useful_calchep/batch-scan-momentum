@@ -1,0 +1,48 @@
+Model:         SM
+
+Model changed: False
+Gauge:         Feynman
+
+Process:   h,h->h,h
+Process:   h,h->h,h,h
+
+
+#Run parameter: Mh
+#Run begin: 200
+#Run step size: 1
+#Run n steps: 20
+
+
+Run parameter: rtS
+Run begin: -2
+Run step size: 0.1
+Run n steps: 160
+
+p1: 10**rtS
+p2: 10**rtS
+
+
+
+Parameter: Mh=10
+
+
+
+
+
+
+
+
+Parallelization mode : local
+
+Max number of cpus : 16
+Walltime : 0
+
+
+nSess_1 : 5
+nCalls_1 : 1000
+nSess_2 : 5
+nCalls_2 : 5000
+
+sleep time	:	0
+
+Nice level: 0

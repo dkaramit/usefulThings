@@ -1,0 +1,5 @@
+Copy the contents as is to your work directory in calchep
+
+Read the comments in the scripts and usrFF.c in models/
+
+Run ./example.sh for an example (read the comments to see how everything works together).
